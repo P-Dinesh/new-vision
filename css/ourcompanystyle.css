@@ -1,0 +1,319 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #dddddd;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.header {
+  margin-bottom: 35px;
+  overflow: auto;
+}
+
+.header-container {
+  float: left;
+  width: 25%;
+}
+.header-image {
+  margin: 60px 260px 30px 30px;
+}
+
+.links {
+  float: right;
+  margin-right: 80px;
+  margin-top: 70px;
+  border: 1px solid black;
+  border-style: dotted;
+  padding: 0 55px;
+}
+
+.link {
+  float: left;
+  font-size: 25px;
+  list-style-type: none;
+  padding: 25px 0;
+}
+
+.link:not(:last-child) {
+  margin-right: 65px;
+}
+
+.link-selected {
+  border-bottom: 5px solid #59bcff;
+}
+
+.link-text {
+  text-decoration: none;
+  color: #9999a6;
+}
+
+.homeimage {
+  width: 100%;
+}
+
+.about-container {
+  position: relative;
+  height: 90px;
+}
+
+.about-title {
+  position: absolute;
+  top: -35px;
+  margin-left: 35px;
+  font-size: 35px;
+  padding: 30px;
+  color: white;
+  padding-right: 100px;
+  background-color: #cc9999;
+}
+
+.about {
+  padding: 40px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.about-item {
+  overflow: auto;
+  margin-bottom: 30px;
+}
+
+.about-image {
+  float: left;
+  width: 120px;
+}
+
+.about-text {
+  float: left;
+  margin-left: 60px;
+  width: 70%;
+  font-size: 18px;
+  line-height: 1.75;
+  padding-top: 15px;
+  color: #8d8d8d;
+}
+
+.title-container {
+  padding: 0 35px;
+}
+
+.background-title {
+  background-color: #cc9999;
+  padding: 20px 30px;
+  padding-right: 150px;
+  font-size: 25px;
+  color: white;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.background {
+  overflow: auto;
+}
+
+.background-items {
+  padding: 70px;
+}
+
+.background-text {
+  margin-top: 55px;
+}
+
+.background-text p {
+  margin-top: 35px;
+  font-size: 18px;
+  line-height: 1.75;
+  color: #8d8d8d;
+}
+
+.background-image img {
+  width: 100%;
+}
+.background-item {
+  width: 46%;
+  float: left;
+}
+
+.background-item:first-child {
+  margin-right: 8%;
+}
+
+.team-container {
+  padding: 35px;
+}
+
+.team-title {
+  background-color: #cc9999;
+  padding: 20px 30px;
+  padding-right: 150px;
+  font-size: 25px;
+  color: white;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.team-items {
+  padding: 20px;
+  overflow: auto;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.team-item {
+  width: 240px;
+  /* width: 100%; */
+  margin-right: 50px;
+  float: left;
+}
+
+.team-navigation {
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.team-button {
+  width: 25px;
+  height: 5px;
+  border: none;
+  margin-left: 10px;
+  border-radius: 5px;
+  background-color: #c5bcbc;
+}
+
+.team-button.active {
+  background-color: #cc9999;
+}
+
+.team-item:last-child {
+  margin-right: 0;
+}
+
+.footer {
+  overflow: auto;
+  padding-bottom: 30px;
+}
+
+.footer p {
+  font-size: 18px;
+  margin-right: 35px;
+  float: right;
+  color: #8d8d8d;
+}
+
+.team-container {
+  margin-top: 30px;
+}
+
+.team {
+  margin-top: 25px;
+}
+
+@media only screen and (max-width: 1450px) {
+  .team-items {
+    width: calc(480px + 30px);
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .team-item {
+    margin-right: 30px;
+    margin-bottom: 30px;
+  }
+
+  .team-item:nth-child(even) {
+    margin-right: 0;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .about {
+    padding: 0;
+  }
+
+  .background-item {
+    width: 100%;
+    float: none;
+    margin-bottom: 20px;
+  }
+
+  .background-items {
+    padding: 35px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .about {
+    margin-bottom: 80px;
+  }
+
+  .about-image {
+    float: none;
+    width: 120px;
+    width: min-content;
+    margin: 0 auto;
+  }
+
+  .about-text {
+    float: none;
+    width: 85%;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 1.75;
+    padding-top: 15px;
+    color: #8d8d8d;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .about-title {
+    font-size: 33px;
+    padding: 30px;
+  }
+
+  .team-items {
+    width: min-content;
+  }
+
+  .team-item {
+    margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .about-title {
+    position: absolute;
+    margin-left: 35px;
+    font-size: 30px;
+    padding: 30px;
+  }
+
+  .background-item {
+    width: 100%;
+    float: none;
+    margin-bottom: 20px;
+  }
+
+  .background-items {
+    padding: 35px;
+  }
+  .team-item {
+    margin-right: 0;
+  }
+  .team {
+    width: min-content;
+    margin: 0 auto;
+  }
+}
