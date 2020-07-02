@@ -99,7 +99,7 @@ body {
   font-size: 18px;
   line-height: 1.75;
   padding-top: 15px;
-  color: #8d8d8d;
+  color: #787676;
 }
 
 .title-container {
@@ -131,7 +131,7 @@ body {
   margin-top: 35px;
   font-size: 18px;
   line-height: 1.75;
-  color: #8d8d8d;
+  color: #787676;
 }
 
 .background-image img {
@@ -206,7 +206,7 @@ body {
   font-size: 18px;
   margin-right: 35px;
   float: right;
-  color: #8d8d8d;
+  color: #787676;
 }
 
 .team-container {
@@ -294,10 +294,9 @@ body {
   }
 
   .about-title {
-    position: absolute;
-    margin-left: 35px;
-    font-size: 30px;
-    padding: 30px;
+    margin-left: 25px;
+    font-size: 20px;
+    padding: 20px;
   }
 
   .background-item {
@@ -315,5 +314,8 @@ body {
   .team {
     width: min-content;
     margin: 0 auto;
+  }
+  .footer p {
+    margin-right: 0;
   }
 }

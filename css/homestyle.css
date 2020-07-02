@@ -59,7 +59,7 @@ body {
 }
 
 .content-box p {
-  color: #8d8d8d;
+  color: #787676;
 }
 
 /* .content .content-box > * {
@@ -99,7 +99,7 @@ body {
   margin-right: 35px;
   padding: 20px 40px;
   height: 100%;
-  border: 1px dotted black;
+  border: 1px dotted #b6b5b5;
 }
 
 .card:last-child {
@@ -107,7 +107,8 @@ body {
 }
 
 .card p {
-  color: #8d8d8d;
+  color: #787676;
+  font-size: 18px;
 }
 
 .glass-text {
@@ -185,7 +186,7 @@ body {
   font-size: 18px;
   margin-right: 35px;
   float: right;
-  color: #8d8d8d;
+  color: #787676;
 }
 
 @media only screen and (max-width: 1450px) {
@@ -276,16 +277,6 @@ body {
 }
 
 @media only screen and (max-width: 550px) {
-  /* .content {
-    clear: both;
-    width: min-content;
-    float: none;
-  } */
-  /* .content-image {
-    width: 100%;
-    float: none;
-  } */
-
   .container {
     width: 100%;
     margin: 0 auto;
@@ -320,18 +311,6 @@ body {
     padding: 25px;
   }
 
-  /* .content-image {
-    width: 100%;
-  } */
-
-  /* .content-image .image {
-    width: 100%;
-  } */
-
-  /* .carousel-item {
-    width: 100%;
-    float: none;
-  } */
   .template {
     height: fit-content;
   }
