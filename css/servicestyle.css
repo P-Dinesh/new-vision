@@ -140,7 +140,7 @@ body {
 }
 
 .content-box p {
-  color: #8d8d8d;
+  color: #787676;
 }
 
 .content-image {
@@ -205,7 +205,7 @@ body {
   width: 70%;
   font-size: 18px;
   line-height: 1.75;
-  color: #8d8d8d;
+  color: #787676;
 }
 
 .footer {
@@ -218,7 +218,7 @@ body {
   font-size: 18px;
   margin-right: 35px;
   float: right;
-  color: #8d8d8d;
+  color: #787676;
 }
 @media only screen and (max-width: 1450px) {
   .card-item {
@@ -276,6 +276,26 @@ body {
     width: min-content;
     margin: 0 auto;
   }
+  .content {
+    margin-bottom: 80px;
+  }
+
+  .content-image {
+    float: none;
+    width: 120px;
+    width: min-content;
+    margin: 0 auto;
+  }
+
+  .content-text {
+    float: none;
+    width: 85%;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 1.75;
+    padding-top: 15px;
+    color: #8d8d8d;
+  }
 }
 @media only screen and (max-width: 400px) {
   .card-item {
@@ -285,5 +305,8 @@ body {
 
   .content-box {
     width: 100%;
+  }
+  .footer p {
+    margin-right: 0;
   }
 }
