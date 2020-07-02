@@ -1,0 +1,22 @@
+{
+  "name": "new-vision",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DineshRonald/new-vision.git"
+  },
+  "author": "Dinesh P",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DineshRonald/new-vision/issues"
+  },
+  "homepage": "https://dineshronald.github.io/new-vision",
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}

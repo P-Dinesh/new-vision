@@ -1,0 +1,289 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #dddddd;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.header {
+  margin-bottom: 35px;
+  overflow: auto;
+}
+
+.header-container {
+  float: left;
+  width: 25%;
+}
+.header-image {
+  margin: 60px 260px 30px 30px;
+}
+
+.links {
+  float: right;
+  margin-right: 80px;
+  margin-top: 70px;
+  border: 1px solid black;
+  border-style: dotted;
+  padding: 0 55px;
+}
+
+.link {
+  float: left;
+  font-size: 25px;
+  list-style-type: none;
+  padding: 25px 0;
+}
+
+.link:not(:last-child) {
+  margin-right: 65px;
+}
+
+.link-selected {
+  border-bottom: 5px solid #59bcff;
+}
+
+.link-text {
+  text-decoration: none;
+  color: #9999a6;
+}
+
+.homeimage {
+  width: 100%;
+}
+
+.digital-container {
+  position: relative;
+  height: 90px;
+}
+
+.image-container .digital {
+  position: absolute;
+  top: -35px;
+  margin-left: 35px;
+  font-size: 35px;
+  padding: 30px;
+  color: white;
+  padding-right: 100px;
+  background-color: #cc9999;
+}
+
+.service-card {
+  margin-top: 30px;
+}
+
+.card-items {
+  padding: 20px;
+  overflow: auto;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.card-item {
+  width: 240px;
+  margin-right: 50px;
+  float: left;
+}
+
+.card-item:last-child {
+  margin-right: 0;
+}
+
+.card-item p {
+  margin-top: 25px;
+  text-align: center;
+  font-size: 18px;
+  color: #0099ff;
+}
+
+.service-content {
+  padding: 35px;
+}
+
+.service-title {
+  background-color: #cc9999;
+  padding: 20px 30px;
+  padding-right: 150px;
+  font-size: 25px;
+  color: white;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.content {
+  overflow: auto;
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
+.content .content-box {
+  width: calc((100% - 30px) / 2);
+  /* height: 230px; */
+  overflow: auto;
+  float: left;
+  border: 1px dotted black;
+  padding: 25px;
+  margin-bottom: 30px;
+}
+
+.content-box:nth-child(odd) {
+  margin-right: 30px;
+}
+
+.content-box p {
+  color: #8d8d8d;
+}
+
+.content-image {
+  width: 120px;
+  float: left;
+}
+.content-text {
+  float: left;
+  width: calc(100% - 120px);
+  margin-top: 10px;
+}
+
+/* .content-image .image {
+  width: 100%;
+} */
+
+.content .content-box .content-text {
+  padding: 0 10px;
+}
+
+.content-text p {
+  font-size: 18px;
+  line-height: 1.75;
+}
+
+.partners {
+  padding: 35px;
+}
+.partner-title {
+  background-color: #cc9999;
+  padding: 20px 30px;
+  padding-right: 150px;
+  font-size: 25px;
+  color: white;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.partner-card {
+  margin-top: 25px;
+}
+
+.partner-card {
+  padding: 20px;
+  overflow: auto;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.card {
+  margin-right: 35px;
+  float: left;
+}
+
+.card:last-child {
+  margin-right: 0;
+}
+
+.partner-para {
+  margin-top: 35px;
+  margin-left: 70px;
+  width: 70%;
+  font-size: 18px;
+  line-height: 1.75;
+  color: #8d8d8d;
+}
+
+.footer {
+  overflow: auto;
+  padding-bottom: 30px;
+  margin-top: 50px;
+}
+
+.footer p {
+  font-size: 18px;
+  margin-right: 35px;
+  float: right;
+  color: #8d8d8d;
+}
+@media only screen and (max-width: 1450px) {
+  .card-item {
+    margin-right: 30px;
+    margin-bottom: 30px;
+  }
+
+  .card-item:nth-child(even) {
+    margin-right: 0;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .content {
+    width: 85%;
+  }
+  .content .content-box {
+    width: 100%;
+    float: none;
+  }
+  .content-box:nth-child(odd) {
+    margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .image-container .digital {
+    margin-left: 35px;
+    font-size: 25px;
+    padding: 20px;
+    color: white;
+    padding-right: 100px;
+    background-color: #cc9999;
+  }
+  .content {
+    width: 100%;
+  }
+  .card-items {
+    width: min-content;
+  }
+
+  .card-item {
+    margin-right: 0;
+  }
+  .partner-card {
+    width: min-content;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .card-item {
+    margin-right: 0;
+  }
+  .card {
+    width: min-content;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .card-item {
+    width: 100%;
+    float: none;
+  }
+
+  .content-box {
+    width: 100%;
+  }
+}

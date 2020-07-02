@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #dddddd;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.homeimage {
+  width: 100%;
+}
+
+.contact-container {
+  position: relative;
+  height: 90px;
+}
+
+.contact-container .contact-title {
+  position: absolute;
+  top: -35px;
+  margin-left: 35px;
+  font-size: 35px;
+  padding: 30px;
+  color: white;
+  background-color: #cc9999;
+}
+
+.footer {
+  overflow: auto;
+  margin-top: 90px;
+  padding: 35px;
+  margin-bottom: 800px;
+}
+
+.form {
+  overflow: auto;
+  width: 45%;
+  float: left;
+  padding: 25px;
+  /* margin: 0 60px; */
+}
+
+.input {
+  width: 90%;
+  margin-bottom: 30px;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.footer-text {
+  float: left;
+  width: 50%;
+  font-size: 20px;
+  padding: 50px;
+  margin: 0 auto;
+  padding-top: 0;
+}
+
+.form-footer {
+  display: inline-block;
+  float: right;
+  color: white;
+  font-size: 20px;
+  padding: 15px;
+  background-color: #e39f91;
+}
+
+.footer-para {
+  color: blue;
+}
+
+.footer-paragraph {
+  margin-top: 15px;
+  line-height: 1.75;
+  color: #8d8d8d;
+}
+
+.bottom {
+  overflow: auto;
+  padding-bottom: 30px;
+}
+
+.bottom p {
+  font-size: 18px;
+  margin-right: 35px;
+  float: right;
+  color: #8d8d8d;
+}
+
+@media only screen and (max-width: 1200px) {
+  .form {
+    width: 100%;
+    float: none;
+    /* padding: 20px; */
+    margin-bottom: 30px;
+    padding: 0;
+  }
+  .footer-text {
+    width: 100%;
+    float: none;
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .footer {
+    padding: 20px;
+  }
+  .contact-container .contact-title {
+    margin-left: 35px;
+    font-size: 25px;
+    padding: 20px;
+    color: white;
+    background-color: #cc9999;
+  }
+}
