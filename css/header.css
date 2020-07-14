@@ -7,8 +7,6 @@
 .hamburger {
   padding: 10px;
   background-color: #eeeeee;
-  box-shadow: 1px 1px 10px 0 rgba(32, 33, 36, 0.35);
-  border-radius: 10px;
   position: fixed;
   top: 60px;
   right: 30px;
@@ -16,8 +14,8 @@
 }
 
 .hamburger img {
-  width: 40px;
-  height: 40px;
+  width: 25px;
+  height: 25px;
 }
 
 .header-container {
@@ -32,7 +30,7 @@
   float: right;
   margin-right: 80px;
   margin-top: 70px;
-  border: 1px solid black;
+  border: 1px solid #cccdce;
   border-style: dotted;
   padding: 0 55px;
 }
@@ -77,8 +75,8 @@
     padding: 0 30px;
     margin: 0;
     position: fixed;
-    top: 120px;
-    right: 45px;
+    top: 105px;
+    right: 30px;
     background-color: white;
     border: 1px solid black;
     z-index: 999;
@@ -98,5 +96,49 @@
   .hamburger:hover ~ .links,
   .links:hover {
     display: block;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .header-image {
+	  width:200px;
+	  height:40px;
+	  margin: 60px 0px 30px 30px;
+}	
+
+.links {
+    display: none;
+    padding: 0 20px;
+    margin: 0;
+    position: fixed;
+    top: 97px;
+    right: 10px;
+    background-color: white;
+    border: 1px solid black;
+    z-index: 999;
+  }
+
+  .link {
+	  font-size:15px;
+    float: none;
+    padding: 20px 0;
+    display: block;
+  }
+
+	
+	
+  .hamburger {
+	
+    display: block;
+	padding: 5px;
+	background-color: #eeeeee;
+	position: fixed;
+	top: 67px;
+	right: 10px;
+  }
+  
+  .hamburger img {
+	width: 20px;
+	height: 20px;
   }
 }

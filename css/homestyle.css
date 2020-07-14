@@ -31,22 +31,9 @@ body {
   clear: both;
 }
 
-/* .content-row1 {
-  width: 50%;
-}
-.content-row2 {
-  width: 50%;
-
-
-} */
-
 .content {
   overflow: auto;
 }
-
-/* .content > * {
-  float: left;
-} */
 
 .content-box {
   float: left;
@@ -62,10 +49,6 @@ body {
   color: #787676;
 }
 
-/* .content .content-box > * {
-  float: left;
-  width: 50%;
-} */
 .content-image,
 .content-text {
   float: left;
@@ -124,7 +107,7 @@ body {
   font-size: 15px;
   padding: 15px;
 }
-/* CAROUSEL */
+
 
 .carousel-container {
   padding: 35px;
@@ -149,7 +132,6 @@ body {
 
 .carousel-item {
   width: 240px;
-  /* width: 100%; */
   margin-right: 50px;
   float: left;
 }
@@ -191,8 +173,9 @@ body {
 
 @media only screen and (max-width: 1450px) {
   .carousel-items {
-    width: calc(480px + 30px);
+    width: 510px;
     margin: 0 auto;
+	margin-top:20px;
     padding: 0;
   }
 
@@ -207,15 +190,6 @@ body {
 }
 
 @media only screen and (max-width: 1300px) {
-  /* .content-image {
-    width: 50%;
-    float: left;
-  }
-  .content-text {
-    width: 60%;
-    float: none;
-  } */
-
   .container {
     width: 90%;
     margin: 0 auto;
@@ -223,15 +197,6 @@ body {
 }
 
 @media only screen and (max-width: 1250px) {
-  /* .content-image {
-    width: 50%;
-    float: left;
-  } */
-  /* .content-text {
-    width: 60%;
-    float: none;
-  } */
-
   .template {
     height: fit-content;
   }
@@ -268,7 +233,7 @@ body {
 
 @media only screen and (max-width: 700px) {
   .carousel-items {
-    width: min-content;
+    width: 240px;
   }
 
   .carousel-item {
@@ -281,14 +246,9 @@ body {
     width: 100%;
     margin: 0 auto;
   }
-  .welcome-container {
-    position: relative;
-    height: 70px;
-  }
-
+  
   .image-container .welcome {
-    position: absolute;
-    top: -35px;
+    
     margin-left: 35px;
     font-size: 20px;
     padding: 20px;
@@ -319,6 +279,7 @@ body {
     overflow: auto;
     width: 100%;
     float: none;
+	padding:20px 30px;
     margin-top: 20px;
   }
 
@@ -326,11 +287,12 @@ body {
     margin-right: 0;
   }
   .carousel {
-    width: min-content;
+    width: 240px;
     margin: 0 auto;
   }
 
   .footer p {
+	  padding:10px;
     margin-right: 0;
   }
 }
